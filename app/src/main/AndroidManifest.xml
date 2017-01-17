@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hp.nanodegreepro2017">
+
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/add_contact"
+        android:label="Contact App"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Intro.MainActivity"
+            android:icon="@drawable/add_contact"
+            android:label="Contacts"
+            android:theme="@style/AppTheme">
+
+        </activity>
+        <activity android:name=".Intro.ContactDetails"
+            android:label="Contacts Details"/>
+        <activity
+            android:name=".Intro.Splash"
+            android:label="Contacts" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity
+            android:name=".Email.Register"
+            android:label="Register" />
+        <activity
+            android:name=".Email.Login"
+            android:label="Login" />
+        <activity android:name=".Email.resetPasswordActivity" />
+        <activity
+            android:name=".Email.mail"
+            android:label="Email" />
+        <activity
+            android:name=".Chat.ChatActivity"
+            android:label="Chat" />
+        <activity
+            android:name=".SMS.SMSActivity"
+            android:label="SMS" />
+
+        <service android:name=".Notifications.smsFirebaseInstanceIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".Notifications.smsFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".Intro.Settings" />
+        <activity android:name=".NoteBook.Diary"
+            android:label="Diary"/>
+        <activity android:name=".Call.CallActivity"
+            android:label="Call">
+
+        </activity>
+    </application>
+
+</manifest>

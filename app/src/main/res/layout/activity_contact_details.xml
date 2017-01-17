@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_contact_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffe6"
+    tools:context="com.example.hp.nanodegreepro2017.Intro.ContactDetails">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/person"
+            android:id="@+id/imageView6"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:text="name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textname"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#cc33ff"
+                android:layout_weight="1" />
+
+            <TextView
+                android:text="phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textphone"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#cc33ff"
+                android:layout_weight="1" />
+
+            <TextView
+                android:text="email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textemail"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#cc33ff"
+                android:layout_weight="1" />
+
+            <TextView
+                android:text="address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textaddress"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#cc33ff"
+                android:layout_weight="1" />
+
+           </LinearLayout>
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:srcCompat="@drawable/phone"
+       android:layout_marginTop="250dp"
+        android:background="#26ae90"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/imagephone"/>
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/imagechat"
+        app:srcCompat="@drawable/chat"
+        android:background="#26ae90"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="220dp"/>
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:srcCompat="@drawable/sms"
+        android:id="@+id/imagesms"
+        android:background="#26ae90"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="400dp"
+        />
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:srcCompat="@drawable/email"
+        android:id="@+id/imageemail"
+        android:background="#26ae90"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="220dp"/>
+    
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="#26ae90"
+        android:id="@+id/imagenote"
+        app:srcCompat="@drawable/note"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="130dp"/>
+
+
+
+</RelativeLayout>

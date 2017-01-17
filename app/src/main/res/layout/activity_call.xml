@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_call"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99e6e6"
+    tools:context="com.example.hp.nanodegreepro2017.Call.CallActivity">
+
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/image2"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="140dp"
+        android:text="call"
+        android:textColor="#ff1aff"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:background="#ffe6ff"
+        app:srcCompat="@drawable/phonecall" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:id="@+id/image" />
+</RelativeLayout>

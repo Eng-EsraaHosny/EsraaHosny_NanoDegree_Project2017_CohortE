@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1041944992720",
+    "firebase_url": "https://nanodegreepro2017.firebaseio.com",
+    "project_id": "nanodegreepro2017",
+    "storage_bucket": "nanodegreepro2017.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1041944992720:android:a91f927a69cfa1d9",
+        "android_client_info": {
+          "package_name": "com.example.hp.nanodegreepro2017"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1041944992720-lcocb0aa6cm8kpd8p4hseeg9cthn4ck7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hp.nanodegreepro2017",
+            "certificate_hash": "135EB98DF0B30CDA056573FD511EFDBE69307420"
+          }
+        },
+        {
+          "client_id": "1041944992720-9d266v46hg79gfubo96eeih9ojq59jks.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGGGY5nhRdzX4-9pcTAa_Rz4-3Mzw3Lz8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1041944992720-9d266v46hg79gfubo96eeih9ojq59jks.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
